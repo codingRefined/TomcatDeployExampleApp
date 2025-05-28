@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+tools {
+  jdk 'jdk17'
+  maven 'mavenLatest'
+}
+
+    stages {
+        stage('GIT CHECKOUT') {
+            steps {
+               git branch: 'main', url: 'https://github.com/codingRefined/TC.git'
+            }
+        }
+        
+        stage('package'){
+            steps{
+                sh 'mvn package'
+            }
+        }
+        
+        stage('tomcat'){
+            steps{
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomactCreds', path: '', url: 'http://54.210.110.197:8080/')], contextPath: 'sampleApp', onFailure: false, war: 'target/*.war'
+            }
+        }
+    }
+}
