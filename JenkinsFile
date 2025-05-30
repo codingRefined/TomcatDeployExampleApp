@@ -2,18 +2,18 @@ pipeline {
     agent any
 
 tools {
-  jdk 'jdk17'
   maven 'mavenLatest'
+  jdk 'jdk17'
 }
 
     stages {
-        stage('GIT CHECKOUT') {
+        stage('Hello') {
             steps {
-               git branch: 'main', url: 'https://github.com/codingRefined/TC.git'
+                git branch: 'main', url: 'https://github.com/codingRefined/TomcatDeployExampleApp.git'
             }
         }
         
-        stage('package'){
+        stage('byuld'){
             steps{
                 sh 'mvn package'
             }
@@ -21,7 +21,7 @@ tools {
         
         stage('tomcat'){
             steps{
-                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomactCreds', path: '', url: 'http://54.210.110.197:8080/')], contextPath: 'sampleApp', onFailure: false, war: 'target/*.war'
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'newTom', path: '', url: 'http://54.84.225.23:8080/')], contextPath: 'myapp', onFailure: false, war: '**/*.war'
             }
         }
     }
