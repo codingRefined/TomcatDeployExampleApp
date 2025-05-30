@@ -1,0 +1,33 @@
+note add to the managejenkins -> system ->Global Trusted Pipeline Libraries
+
+@Library('MySharedLib') _
+
+pipeline {
+    agent any
+
+    tools {
+        maven 'mavenLatest'
+        jdk 'jdk17'
+    }
+
+    stages {
+        stage('clone') {
+            steps {
+                cloneRepo('https://github.com/codingRefined/TomcatDeployExampleApp.git', 'main')
+
+            }
+        }
+
+        stage('Build') {
+            steps {
+                buildApps()
+            }
+        }
+
+         stage('tomcat'){
+            steps{
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'newTom', path: '', url: 'http://54.84.225.23:8080/')], contextPath: 'myapp', onFailure: false, war: '**/*.war'
+            }
+        }
+    }
+}
