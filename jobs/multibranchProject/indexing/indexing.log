@@ -1,0 +1,37 @@
+Started by user [8mha:////4B3KS5HB4qR/Ys6zUmIshIHL+/ILZ2NK0kEaIFAGUu2oAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[Fri May 30 17:00:51 UTC 2025] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote --symref -- https://github.com/codingRefined/Boardgame.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-c9222ba1723cb0f0187e9a82a76102db/.git # timeout=10
+Setting origin to https://github.com/codingRefined/Boardgame.git
+ > git config remote.origin.url https://github.com/codingRefined/Boardgame.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git ls-remote -h -- https://github.com/codingRefined/Boardgame.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch qa
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: qa (still at ea11d180ed2164c673ed3eaec64cba90104e9ad5)
+  Checking branch main
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: main (still at 4a4d55733c9d89ddbd0bf04a6acc76e52a5b7388)
+  Checking branch feature
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: feature (still at dc1b9a253bc4d37f617eb06a1568db1726c6e40c)
+  Checking branch dev
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: dev (still at c796c9344d1b701e49a2df93870169608346f210)
+Processed 4 branches
+[Fri May 30 17:00:52 UTC 2025] Finished branch indexing. Indexing took 0.68 sec
+Finished: SUCCESS

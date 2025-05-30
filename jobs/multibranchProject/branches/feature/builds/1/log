@@ -1,0 +1,457 @@
+Branch indexing
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-c9222ba1723cb0f0187e9a82a76102db/.git # timeout=10
+Setting origin to https://github.com/codingRefined/Boardgame.git
+ > git config remote.origin.url https://github.com/codingRefined/Boardgame.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/dev
+Seen branch in repository origin/feature
+Seen branch in repository origin/main
+Seen branch in repository origin/qa
+Seen 4 remote branches
+Obtained Jenkinsfile from dc1b9a253bc4d37f617eb06a1568db1726c6e40c
+[8mha:////4HGk7l7P2T4nmIBh/2ucZQHkE7Nfm/Dm6czsUykMntikAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4GPTFR208L9FVo9Rac+MmjRge9NXpkVhQi3RVrT3JgXPAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4IqEDs0uch92rqRBuyOWM3NhPffzUyCDqcPC8bbwkNuHAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/eKcxLJUQ30AXbxxvsYAAAA=[0mslave1 in /home/ubuntu/slaveDir/workspace/multibranchProject_feature
+[8mha:////4ACYYmE4mN1CA/XtVuBgh3YEqLN9MqjeG5opKDz7fg/RAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4IWgd6AdZY46XDYd7p2T3U/kTaLvUX3e7A36xDrHwTniAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4NlUZlM3CGGaNxzypm2SoODSdvAauAgXK7F6s3Z3TFSUAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4P5pXa9tUH0bzj2Jees2xj6lUTd80mzVp5vt/xK0ud1gAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Avoid second fetch
+Checking out Revision dc1b9a253bc4d37f617eb06a1568db1726c6e40c (feature)
+Commit message: "Update Jenkinsfile"
+First time build. Skipping changelog.
+[8mha:////4LRFjRlectbJvHOs3Cfn/jd4SOVEGeVyfZuJRQwtaQ7IAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4I4cZsgJvWdk3mvFee2qhqRpzkp57xqm9AI3mqBpeFtFAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4D+EsT5ENEfQ6iEpA6FnMHHgw6s0ZJGGE9YxYSU8fm/qAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4JCy91wXNn9vNK2dq1UqwpQXTC/yZui47MllS8BxBRv3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4OqeWI6+FyHLu0WtDA0OhzuMjPKEgbO7YthLzEHGMIDKAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4M+Rd9y4UCUocvNhM3CH2j50mG7R15rUf220lQ2c/W74AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4MVO1DqShRCP2hTMrh+H6GJy6razq/sHhS1+vFNkxF6VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+Cloning repository https://github.com/codingRefined/Boardgame.git
+ > git init /home/ubuntu/slaveDir/workspace/multibranchProject_feature # timeout=10
+Fetching upstream changes from https://github.com/codingRefined/Boardgame.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --no-tags --force --progress -- https://github.com/codingRefined/Boardgame.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/codingRefined/Boardgame.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dc1b9a253bc4d37f617eb06a1568db1726c6e40c # timeout=10
+[8mha:////4K3KyBKVuUB4sjx8/irrU83R+OCPc4si4zepGXO9hAHSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4B1XOYq8wdZvljJGCYFPqE+YMvtSG2SV8Lxf27ctvgJUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] tool
+[8mha:////4L6v0PIppt4ZF/3EvCwR3p57SMor+ibu1g6J+d9gDUZPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHJ54PfvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4KSjqP1MMntHD6M67BCEQZQYVaL7Fz94lKQoQfl2FP51AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFudLBjvgAAAA==[0m[Pipeline] }
+[8mha:////4Fu1DIbPljBYmALsNZxF/mDE/ieq5jBCWvvqzhl+LURXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bl2X69++AAAA[0m[Pipeline] // stage
+[8mha:////4PpOIdfqPdqj2FmtnLCnxTf0ex6dr8n+qCeXmHs1Vyv9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUsiKmrlEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCKgY4UrCsM9g7jMqxwY82JzZR6C+eJtbRmSnCSN4wYSZB2rRLFZQMLCpKWHFYG1SeokObYMM7eZe1l2jrUwp5O3Aonb7BAwqeyUmG9C1zgO111JHwx/kLgHlIUDZNtv3u86ze+beK58IAAAA=[0m[Pipeline] withEnv
+[8mha:////4HuCrWJoE8Vo7Vbq9voL/XGt0L5N5qyGhsJATuNZELsgAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4DXX6+97PE82Jt9+PufkYVlAYMScyetC8xJmPQgz6YBoAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] stage
+[8mha:////4IQ4tS7lSfANefxHU6y5qgZGluQRaKTul302xKq+E/CsAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (compile)
+[8mha:////4GB8Ym2MB1Y+wQ3DaV3sbAXL2Ibkrh0LeFUdIQBOwSmfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] tool
+[8mha:////4OLxCYiRfQBiMR/eIEXPS4Cd7VYhMtwCHqJW3R1pzFAFAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4JObKFrTNgtDIHADp7BAvIRLfV4IMOTpQe46Mhg8149wAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEyb1FKvgAAAA==[0m[Pipeline] tool
+[8mha:////4N7kdv2u+O75JhZVPxTIuS3+p4W188rPgsHe2K08HgRIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFzXkpTvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Jj4wlFM/zZUYiU6S8b5MfIhWMUniJpB5taOJ/mKvR/LAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAClXiskwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4F6XGmjRFg6kLp/fsTK1Y1BqALcjiCjM6mQH97wqQzKEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4JSCKcB5xOVuRGKrLdIOxx7jznsxzEsuxyiZbsATC/npAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ mvn compile
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.javaproject:database_service_project >--------------
+[INFO] Building database_service_project 0.0.7-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.20.0-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (jacoco-initialize) @ database_service_project ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ database_service_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 19 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ database_service_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/classes
+[INFO] /home/ubuntu/slaveDir/workspace/multibranchProject_feature/src/main/java/com/javaproject/database/DatabaseAccess.java: /home/ubuntu/slaveDir/workspace/multibranchProject_feature/src/main/java/com/javaproject/database/DatabaseAccess.java uses unchecked or unsafe operations.
+[INFO] /home/ubuntu/slaveDir/workspace/multibranchProject_feature/src/main/java/com/javaproject/database/DatabaseAccess.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.771 s
+[INFO] Finished at: 2025-05-30T11:38:13Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4IjIUlc1WNPaerCK3ZYhG+/vRcaFXjrvsbtvfzC4wFuLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4Cgd0lWMBsL1hPrSbpnVoBpdR2LkmN1mYUE+8ghIRwVSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4I3eONYRMMKRZy4nTgA2HS3GXATTk4Zr37RM0Z1a2hU2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSImoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79AEfGxbW+AAAA[0m[Pipeline] }
+[8mha:////4MfZIKNclnJTm8ge+H/4L07GHyAZdr1Z9lALQeo0hCoTAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP2nGx9++AAAA[0m[Pipeline] // stage
+[8mha:////4NN1yQnLMBUqUpThHvxiQcZW/4V4UlLE1E2r4ti0cCU8AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQEO/65mwgAAAA==[0m[Pipeline] stage
+[8mha:////4HNtdBsv1c/dBUmBiYZCKgsn/KGFMeiu4VAsgkyOTBMrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (test)
+[8mha:////4LB1W02yI1qVTZiwE8xrImJVXBLrfYN07Ojh2sPD5qxIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] tool
+[8mha:////4AqYsARN8gLTdI1sodVvxYJk4RiV/pQmJ9f+qpcIfZo0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4L4miKuwSGA7YQX4OVonMgZiHiHHRJw0fGBiqBYXFlfAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3zNplSvgAAAA==[0m[Pipeline] tool
+[8mha:////4NHL7s/93T4izOQhatfM6mw4o0pKx+d+hIccqhy0IYXfAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/mxSGvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4CcJUG+IHZsUErqr0FqNK3My3kcLQm2RcW5qe8OY2nXpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g162gaKwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4DQEo8P3RQuY6Vbj7zVudhJDk/JjlYkWVw1UQDCzMGnfAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4CCOkaIr7fursqEhylIGzyBwHX8uYNnyaiRVlWdzphyqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] sh
++ mvn test
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.javaproject:database_service_project >--------------
+[INFO] Building database_service_project 0.0.7-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.20.0-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (jacoco-initialize) @ database_service_project ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ database_service_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 19 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ database_service_project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ database_service_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/ubuntu/slaveDir/workspace/multibranchProject_feature/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ database_service_project ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/test-classes
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ database_service_project ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.javaproject.DatabaseServiceProjectApplicationTests
+11:38:25.897 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:38:25.949 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:38:26.119 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.javaproject.DatabaseServiceProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:38:26.164 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.DatabaseServiceProjectApplicationTests], using SpringBootContextLoader
+11:38:26.177 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: class path resource [com/javaproject/DatabaseServiceProjectApplicationTests-context.xml] does not exist
+11:38:26.181 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: class path resource [com/javaproject/DatabaseServiceProjectApplicationTestsContext.groovy] does not exist
+11:38:26.181 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:38:26.182 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: DatabaseServiceProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:38:26.371 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.javaproject.DatabaseServiceProjectApplicationTests]
+11:38:26.600 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/classes/com/javaproject/DatabaseServiceProjectApplication.class]
+11:38:26.602 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.DatabaseServiceProjectApplicationTests
+11:38:26.958 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.javaproject.DatabaseServiceProjectApplicationTests]: using defaults.
+11:38:26.958 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+11:38:27.046 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3fc05ea2, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c891ba7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6240651f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3cf7298d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1ff55ff, org.springframework.test.context.support.DirtiesContextTestExecutionListener@351f2244, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5496c165, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51a8313b, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a03d65c, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@6642dc5a, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@43da41e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@148c7c4b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2009f9b0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50d951e7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39ad12b6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4eb45fec, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@211febf3]
+11:38:27.059 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1744a475 testClass = DatabaseServiceProjectApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@444cc791 testClass = DatabaseServiceProjectApplicationTests, locations = '{}', classes = '{class com.javaproject.DatabaseServiceProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@1c5c616f key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@62da83ed, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@e3cee7b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@63fd4873, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@345e5a17, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@32f61a31, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5136d012], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+11:38:27.166 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2025-05-30 11:38:28.141  INFO 3275 --- [           main] j.DatabaseServiceProjectApplicationTests : Starting DatabaseServiceProjectApplicationTests using Java 17.0.15 on ip-172-31-88-60 with PID 3275 (started by ubuntu in /home/ubuntu/slaveDir/workspace/multibranchProject_feature)
+2025-05-30 11:38:28.153  INFO 3275 --- [           main] j.DatabaseServiceProjectApplicationTests : No active profile set, falling back to default profiles: default
+2025-05-30 11:38:30.321  INFO 3275 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-05-30 11:38:30.326  INFO 3275 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-05-30 11:38:30.350  INFO 3275 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JDBC repository interfaces.
+2025-05-30 11:38:30.375  INFO 3275 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-05-30 11:38:30.377  INFO 3275 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 11:38:30.398  INFO 3275 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-05-30 11:38:31.962  INFO 3275 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30 11:38:32.757  INFO 3275 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30 11:38:33.386  INFO 3275 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 11:38:33.542  INFO 3275 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-05-30 11:38:33.960  INFO 3275 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-30 11:38:34.421  INFO 3275 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-05-30 11:38:35.207  INFO 3275 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-30 11:38:35.240  INFO 3275 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 11:38:35.633  WARN 3275 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 11:38:35.867  INFO 3275 --- [           main] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2025-05-30 11:38:37.031  INFO 3275 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4284bd5, org.springframework.security.web.context.SecurityContextPersistenceFilter@cc7eeb1, org.springframework.security.web.header.HeaderWriterFilter@6cb0ab1e, org.springframework.security.web.authentication.logout.LogoutFilter@396d5c73, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d6f8bad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c5c622, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d72ec1b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58afc14, org.springframework.security.web.session.SessionManagementFilter@70e75151, org.springframework.security.web.access.ExceptionTranslationFilter@384841e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8d27060]
+2025-05-30 11:38:38.976  INFO 3275 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-30 11:38:39.160  INFO 3275 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-30 11:38:40.158  INFO 3275 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-30 11:38:40.160  INFO 3275 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-30 11:38:40.163  INFO 3275 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-05-30 11:38:40.224  INFO 3275 --- [           main] j.DatabaseServiceProjectApplicationTests : Started DatabaseServiceProjectApplicationTests in 13.036 seconds (JVM running for 16.744)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.668 s - in com.javaproject.DatabaseServiceProjectApplicationTests
+[INFO] Running com.javaproject.TestController
+2025-05-30 11:38:41.188  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.TestController], using SpringBootContextLoader
+2025-05-30 11:38:41.191  INFO 3275 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.javaproject.TestController]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-05-30 11:38:41.193  INFO 3275 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.javaproject.TestController]: TestController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-05-30 11:38:41.198  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.TestController
+2025-05-30 11:38:41.202  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2025-05-30 11:38:41.205  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7c81fec0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@105674ab, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7453e050, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6c205734, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1fa4c38e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cf41ffd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@574e3953, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@39395d79, org.springframework.test.context.event.EventPublishingTestExecutionListener@b84163, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1cafad7e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@3a0d9b19, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@49accbb4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@b5d38bb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a78b0f3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3c7b3bf6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1325b6a6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@71dfcc99]
+return value is: 4
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /boardgameAdded
+       Parameters = {name=[onecard], level=[1], minPlayers=[2], maxPlayers=[+], gameType=[Party Game]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.javaproject.controllers.HomeController
+           Method = com.javaproject.controllers.HomeController#boardgameAdded(BoardGame)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = redirect:/
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 302
+    Error message = null
+          Headers = [Content-Language:"en", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", Location:"/"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = /
+          Cookies = []
+return value is: 1
+return value is: 1
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.82 s - in com.javaproject.TestController
+[INFO] Running com.javaproject.TestDatabase
+2025-05-30 11:38:43.176  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.TestDatabase], using SpringBootContextLoader
+2025-05-30 11:38:43.180  INFO 3275 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.javaproject.TestDatabase]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-05-30 11:38:43.181  INFO 3275 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.javaproject.TestDatabase]: TestDatabase does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-05-30 11:38:43.191  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.TestDatabase
+2025-05-30 11:38:43.192  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2025-05-30 11:38:43.202  INFO 3275 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3019bc4a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@43c1e01d, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@230f9f56, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@56232a19, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2b25277b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@67a8eb0a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@38823d86, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@773ebb6d, org.springframework.test.context.event.EventPublishingTestExecutionListener@7522540e, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@55f2111b, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@7c35782e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e525116, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@19b7f8f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5c084812, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@babafb5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@679d8537, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@414bb17a]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in com.javaproject.TestDatabase
+2025-05-30 11:38:43.450  INFO 3275 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 11:38:43.450  INFO 3275 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-05-30 11:38:43.458  INFO 3275 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-30 11:38:43.464  INFO 3275 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.201 s
+[INFO] Finished at: 2025-05-30T11:38:43Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4MhztOrydS+qupzytMSX5YZbD8jeLKr+MPdBxw7TpXMsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BmFfOky+AAAA[0m[Pipeline] }
+[8mha:////4Bg7ClTxffRLLRV9flazNdDjfqIgajxrF5ecfTZnx3eJAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] // withEnv
+[8mha:////4DWYLzAVzfe9YuOuno25/mpNAJE8p+VlKDi4LNCduGbAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QG0rN5JvgAAAA==[0m[Pipeline] }
+[8mha:////4LL02B293uAjcB4hYKVBrxhZ5iHTHcGVrbW/ziQV6U6fAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+rLosbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4Axj7Rt++DFIulDVoNB/JXQr3gheVJxKIEx3m/dvzFBGAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7Sbbbv95Vm9e0pcfwgAAAA==[0m[Pipeline] stage
+[8mha:////4A9+pUcDkm7uyIO/bohkix93AOWhsJkE9D+WdXaleMJdAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] { (build)
+[8mha:////4BB41eEogUbCXBCr6t1zR5/VdxfizEQtOgKi5N4CqoQHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] tool
+[8mha:////4Mi3u4iHYE4CA0axjaiXQeYiplLpAvaR0f5qnAP+3/ROAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAublAYr4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4BrLNQpz9y4qcMHZZj8Y1iBapzzwsLQUXSjISoPI+xzzAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAeuptSb4AAAA=[0m[Pipeline] tool
+[8mha:////4CYz1A3Duc7b4AgefTW+5kKlr/GAFWG4iNK1fusVthZqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8723ZQvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4JLGEJCzldab7hbdFGVEkGkqhVe62Kdr8EiPTWq9D9TyAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KQNCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQE0XdybwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KVOu0kAWjgciiPFzYWY8aS++V68INLtuHhmI8YqITG7AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] {
+[8mha:////4J5xCVD+MOrx4aroc/pMIz/OQie9hHG5+jXqVndQpEWgAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxcaxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NlEULJr4AAAA=[0m[Pipeline] sh
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.javaproject:database_service_project >--------------
+[INFO] Building database_service_project 0.0.7-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] 1 problem was encountered while building the effective model for org.javassist:javassist:jar:3.20.0-GA during dependency collection step for project (use -X to see details)
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (jacoco-initialize) @ database_service_project ---
+[INFO] argLine set to -javaagent:/home/ubuntu/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/jacoco.exec
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ database_service_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 19 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ database_service_project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ database_service_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/ubuntu/slaveDir/workspace/multibranchProject_feature/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ database_service_project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ database_service_project ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.javaproject.DatabaseServiceProjectApplicationTests
+11:38:52.861 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+11:38:52.901 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+11:38:53.065 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.javaproject.DatabaseServiceProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+11:38:53.113 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.DatabaseServiceProjectApplicationTests], using SpringBootContextLoader
+11:38:53.130 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: class path resource [com/javaproject/DatabaseServiceProjectApplicationTests-context.xml] does not exist
+11:38:53.132 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: class path resource [com/javaproject/DatabaseServiceProjectApplicationTestsContext.groovy] does not exist
+11:38:53.133 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:38:53.136 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: DatabaseServiceProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:38:53.337 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.javaproject.DatabaseServiceProjectApplicationTests]
+11:38:53.573 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/classes/com/javaproject/DatabaseServiceProjectApplication.class]
+11:38:53.575 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.DatabaseServiceProjectApplicationTests
+11:38:53.917 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.javaproject.DatabaseServiceProjectApplicationTests]: using defaults.
+11:38:53.918 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+11:38:53.991 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4a34e9f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6f6621e3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3fc05ea2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7c891ba7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6240651f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cf7298d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ff55ff, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@351f2244, org.springframework.test.context.event.EventPublishingTestExecutionListener@5496c165, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@51a8313b, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@2a03d65c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6642dc5a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43da41e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@148c7c4b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2009f9b0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50d951e7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@39ad12b6]
+11:38:54.001 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3fbcfe81 testClass = DatabaseServiceProjectApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7a1f45ed testClass = DatabaseServiceProjectApplicationTests, locations = '{}', classes = '{class com.javaproject.DatabaseServiceProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@1744a475 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2449cff7, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@37d80fe7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2ef8a8c3, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@5be82d43, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@6cc0bcf6, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@306cf3ea], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+11:38:54.120 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2025-05-30 11:38:55.078  INFO 3407 --- [           main] j.DatabaseServiceProjectApplicationTests : Starting DatabaseServiceProjectApplicationTests using Java 17.0.15 on ip-172-31-88-60 with PID 3407 (started by ubuntu in /home/ubuntu/slaveDir/workspace/multibranchProject_feature)
+2025-05-30 11:38:55.087  INFO 3407 --- [           main] j.DatabaseServiceProjectApplicationTests : No active profile set, falling back to default profiles: default
+2025-05-30 11:38:57.361  INFO 3407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-05-30 11:38:57.370  INFO 3407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-05-30 11:38:57.402  INFO 3407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JDBC repository interfaces.
+2025-05-30 11:38:57.432  INFO 3407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-05-30 11:38:57.434  INFO 3407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-30 11:38:57.453  INFO 3407 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-05-30 11:38:58.950  INFO 3407 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-30 11:38:59.826  INFO 3407 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-30 11:39:00.467  INFO 3407 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-30 11:39:00.654  INFO 3407 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-05-30 11:39:01.107  INFO 3407 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-05-30 11:39:01.625  INFO 3407 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-05-30 11:39:02.423  INFO 3407 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-05-30 11:39:02.457  INFO 3407 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 11:39:02.859  WARN 3407 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-30 11:39:03.104  INFO 3407 --- [           main] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2025-05-30 11:39:04.184  INFO 3407 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61f5ee9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@46e052e5, org.springframework.security.web.header.HeaderWriterFilter@7590b28f, org.springframework.security.web.authentication.logout.LogoutFilter@1332e410, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@ebf11cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44f6c323, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@293f855b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4284bd5, org.springframework.security.web.session.SessionManagementFilter@939f06, org.springframework.security.web.access.ExceptionTranslationFilter@33293dac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22ccf63d]
+2025-05-30 11:39:05.947  INFO 3407 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-30 11:39:06.115  INFO 3407 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-05-30 11:39:07.012  INFO 3407 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-30 11:39:07.013  INFO 3407 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-30 11:39:07.017  INFO 3407 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-05-30 11:39:07.078  INFO 3407 --- [           main] j.DatabaseServiceProjectApplicationTests : Started DatabaseServiceProjectApplicationTests in 12.94 seconds (JVM running for 16.566)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.325 s - in com.javaproject.DatabaseServiceProjectApplicationTests
+[INFO] Running com.javaproject.TestController
+2025-05-30 11:39:07.913  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.TestController], using SpringBootContextLoader
+2025-05-30 11:39:07.916  INFO 3407 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.javaproject.TestController]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-05-30 11:39:07.918  INFO 3407 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.javaproject.TestController]: TestController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-05-30 11:39:07.946  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.TestController
+2025-05-30 11:39:07.957  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2025-05-30 11:39:07.958  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d7eb2bc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c81fec0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@105674ab, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7453e050, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6c205734, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1fa4c38e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3cf41ffd, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@574e3953, org.springframework.test.context.event.EventPublishingTestExecutionListener@39395d79, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@b84163, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@1cafad7e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3a0d9b19, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49accbb4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b5d38bb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6a78b0f3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c7b3bf6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1325b6a6]
+return value is: 4
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /boardgameAdded
+       Parameters = {name=[onecard], level=[1], minPlayers=[2], maxPlayers=[+], gameType=[Party Game]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.javaproject.controllers.HomeController
+           Method = com.javaproject.controllers.HomeController#boardgameAdded(BoardGame)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = redirect:/
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 302
+    Error message = null
+          Headers = [Content-Language:"en", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", Location:"/"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = /
+          Cookies = []
+return value is: 1
+return value is: 1
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.686 s - in com.javaproject.TestController
+[INFO] Running com.javaproject.TestDatabase
+2025-05-30 11:39:09.707  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.TestDatabase], using SpringBootContextLoader
+2025-05-30 11:39:09.709  INFO 3407 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.javaproject.TestDatabase]: no resource found for suffixes {-context.xml, Context.groovy}.
+2025-05-30 11:39:09.711  INFO 3407 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.javaproject.TestDatabase]: TestDatabase does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-05-30 11:39:09.712  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.TestDatabase
+2025-05-30 11:39:09.719  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2025-05-30 11:39:09.723  INFO 3407 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@43c1e01d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@230f9f56, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@56232a19, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2b25277b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@67a8eb0a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38823d86, org.springframework.test.context.transaction.TransactionalTestExecutionListener@773ebb6d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7522540e, org.springframework.test.context.event.EventPublishingTestExecutionListener@55f2111b, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7c35782e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@7e525116, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@19b7f8f6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c084812, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@babafb5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@679d8537, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@414bb17a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5f9d3999]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s - in com.javaproject.TestDatabase
+2025-05-30 11:39:09.979  INFO 3407 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-05-30 11:39:09.981  INFO 3407 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-05-30 11:39:09.986  INFO 3407 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-30 11:39:09.995  INFO 3407 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ database_service_project ---
+[INFO] Building jar: /home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/database_service_project-0.0.7-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:2.5.6:repackage (repackage) @ database_service_project ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (jacoco-site) @ database_service_project ---
+[INFO] Loading execution data file /home/ubuntu/slaveDir/workspace/multibranchProject_feature/target/jacoco.exec
+[INFO] Analyzed bundle 'database_service_project' with 9 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  26.330 s
+[INFO] Finished at: 2025-05-30T11:39:13Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4OMcI1foiUdeB/YXB99wm8mi2bgJBWCoCr97NUFg9SQPAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfmYKm674AAAA=[0m[Pipeline] }
+[8mha:////4OblqJWtu0OIHx3pgv4DLxkhCNGhBpOjt/TXz1se6lJMAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHaAPdtvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4LbCSNpXwd7igVm+n9xoVehYEkLuDe/5YoBpugvkI7dAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QGDngHBvgAAAA==[0m[Pipeline] }
+[8mha:////4ATgFZQVZDOQM8f0dZgEH5hkvSq7J5y5BTX1OJ8l0z9CAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgRASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAQOXhoL4AAAA=[0m[Pipeline] // stage
+[8mha:////4CZKfncUXB447drkLu1X6gqwbCqdgnTBq4q/tpQWrWk3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QHHKTtEvgAAAA==[0m[Pipeline] }
+[8mha:////4Kvped6iRGRBdETYjPWQDIOj0LkXvH+obr14LQZO2iLhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJBKWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygPda56/wH/a6i1vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Ggq6jwAcR16wxjOUOPJJO2NZz6BheZrKJqHnoY1sqjrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiCIkGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF52Oeq6w8P294ivgAAAA==[0m[Pipeline] }
+[8mha:////4OFHYKf92v5Fp/LY2PXvx6AWfv5E/8mCscsZ/9hBRB49AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w8h29xIvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4H8SULtw7AwlKOfTNYYg2QdOpdE8ObArYn8uhcN0b/GDAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI9ztBtv0ATZSgB70AAAA=[0m[Pipeline] }
+[8mha:////4EfzTWvzE3hpZ82yN2NPzdT8aM1e1YYUxIroCw9waPoBAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HPntk3r0AAAA=[0m[Pipeline] // node
+[8mha:////4GwzfZkYdtuG4KaKfxqUll/X5+jYeEbOMGoREc4ykfEbAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABhiA5S9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
